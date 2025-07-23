@@ -18,10 +18,10 @@ export function createGallery(images) {
         <img src="${img.webformatURL}" alt="${img.tags}" />
       </a>
       <div class="info">
-        <p>❤️ ${img.likes}</p>
-        <p>🧿 ${img.views}</p>
-        <p>⌨️ ${img.comments}</p>
-        <p>💾 ${img.downloads}</p>
+        <p><span>Likes</span> ${img.likes}</p>
+        <p><span>Views</span> ${img.views}</p>
+        <p><span>Comments</span> ${img.comments}</p>
+        <p><span>Downloads</span> ${img.downloads}</p>
       </div>
     </li>
   `
